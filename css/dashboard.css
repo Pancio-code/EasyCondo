@@ -1,0 +1,344 @@
+html {
+  font-size: 70%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.btn {
+  background-color: #c29525 !important;
+  border: none !important;
+}
+
+.btn:hover {
+  border: 2px solid #c29525 !important;
+  background-color: #fff !important;
+  color: #c29525 !important;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 0 3rem 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #4b4b4b;
+  margin-bottom: 6rem;
+}
+
+.underline {
+  width: 12rem;
+  height: 0.3rem;
+  background-color: #c29525;
+}
+
+.submit-btn {
+  align-items: center;
+  width: 70%;
+  max-width: 70%;
+  height: 5rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+label.error {
+  color: red;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+}
+
+label.error.fail-alert {
+  border: 1px solid red;
+  border-radius: 4px;
+  line-height: 1;
+  padding: 2px 0 6px 6px;
+  background: #ffe6eb;
+}
+
+input.valid.success-alert {
+  border: 1px solid #4caf50;
+  color: green;
+}
+
+input.error {
+  border: 1px solid red;
+  font-weight: 200;
+  color: red;
+}
+
+.form-group {
+  padding-bottom: 15px !important;
+}
+
+.form-group button {
+  padding-top: 10px !important;
+}
+
+.condominio {
+  width: 100%;
+  min-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.form {
+  width: 40%;
+}
+
+.dropup {
+  position: fixed !important;
+  bottom: 0px !important;
+  right: 0px !important;
+  padding: 20px !important;
+}
+
+.btn-secondary {
+  height: 60px;
+  width: 60px;
+  border-radius: 50% !important;
+  background-color: #c29525;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.overlay {
+  display: none;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.8);
+  overflow-y: scroll;
+}
+
+.popup {
+  padding: 30px;
+  position: absolute;
+  top: 43px;
+  width: 100%;
+  text-align: center;
+  background: white;
+  /*border-radius: 5%;*/
+  overflow-y: hidden;
+}
+
+.CloseIcon {
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #c29525;
+  color: #fff;
+  cursor: pointer;
+}
+
+.CloseIcon:hover {
+  background-color: #fff;
+  line-height: 46px;
+  border: 2px solid #c29525;
+  color: #c29525;
+}
+
+.dropdown-menu {
+  font-size: 1.2rem !important;
+}
+
+.nothing {
+  width: 100%;
+  text-align: center;
+}
+
+.lead {
+  font-size: xx-large !important;
+}
+
+.card {
+  margin: 10px auto;
+  border-color: #c29525 !important;
+  width: 70%;
+  height: 16rem !important;
+  border-radius: 25px 0 25px 0 !important;
+}
+
+#name-link:hover {
+  cursor: pointer;
+}
+
+.card-title,
+.card-text {
+  font-size: large !important;
+}
+
+.card-body .btn-primary {
+  width: 10rem !important;
+  height: 2.5rem !important;
+}
+
+.cancelbtn,
+.exitbtn,
+.deletebtn {
+  font-size: large !important;
+  width: 30%;
+  height: 40px !important;
+}
+
+.cancelbtn {
+  background-color: #ccc !important;
+}
+
+.dropup ul {
+  border: 1px solid #c29525;
+  border-radius: 15px;
+}
+
+.dropup .item-1 {
+  border-bottom: 1px solid #c29525;
+}
+
+.cancelbtn:hover {
+  border: 2px solid #ccc !important;
+  background-color: #fff !important;
+  color: #ccc !important;
+}
+
+.delete-icon {
+  color: #fff !important;
+  background-color: #f44336 !important;
+  border: 1px solid #fff !important;
+  width: 40px !important;
+  margin-left: 2px;
+}
+
+.delete-icon:hover {
+  background-color: #fff !important;
+  border: 1px solid #f44336 !important;
+  color: #f44336 !important;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100% !important;
+  text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+  [class*="col-"] {
+    width: 50% !important;
+    text-align: center;
+  }
+
+  .card {
+    margin: 10px auto;
+    border-color: #c29525 !important;
+    width: 80%;
+    height: 16rem !important;
+  }
+
+  .card-title,
+  .card-text {
+    font-size: large !important;
+  }
+
+  .card-body .btn-primary {
+    width: 15rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .card-title,
+  .card-text {
+    font-size: large !important;
+  }
+
+  .popup .section-header {
+    padding: 3rem 0 3rem 0;
+  }
+
+  .form {
+    width: 80%;
+  }
+
+  .card {
+    width: 85%;
+  }
+
+  .cancelbtn,
+  .exitbtn,
+  .deletebtn {
+    font-size: medium !important;
+    width: 40%;
+    height: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  html {
+    overflow-x: scroll;
+  }
+
+  body {
+    overflow-x: scroll;
+  }
+
+  .card-title,
+  .card-text {
+    font-size: small !important;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .btn-secondary {
+    height: 50px;
+    width: 50px;
+  }
+
+  .dropup {
+    padding: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 1160px) {
+  .card {
+    margin: 10px auto;
+    border-color: #c29525 !important;
+    width: 70%;
+    height: 16rem !important;
+  }
+
+  .card-title,
+  .card-text {
+    font-size: x-large !important;
+  }
+
+  .card-body .btn-primary {
+    width: 15rem !important;
+  }
+}

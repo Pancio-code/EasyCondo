@@ -1,0 +1,255 @@
+html {
+  font-size: 70%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.dropup ul {
+  border: 1px solid #c29525;
+  border-radius: 15px;
+}
+
+.dropup .item-1 {
+  border-bottom: 1px solid #c29525;
+}
+
+.btn {
+  background-color: #c29525 !important;
+  border: none !important;
+}
+
+.btn:hover {
+  border: 2px solid #c29525 !important;
+  background-color: #fff !important;
+  color: #c29525 !important;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 0 3rem 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #4b4b4b;
+  margin-bottom: 3rem;
+}
+
+.section-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .prof,.img-fluid {
+  width: 100%;
+}
+
+.card {
+  max-width: 100%;
+}
+
+.card-text {
+  font-size: xx-large;
+}
+
+.underline {
+  width: 12rem;
+  height: 0.3rem;
+  background-color: #c29525;
+}
+
+.mb-3 {
+  border: 1px solid #c29525 !important;
+}
+
+.submit-btn {
+  align-items: center;
+  width: 70%;
+  max-width: 70%;
+  height: 5rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+label.error {
+  color: red;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+}
+
+label.error.fail-alert {
+  border: 1px solid red;
+  border-radius: 4px;
+  line-height: 1;
+  padding: 2px 0 6px 6px;
+  background: #ffe6eb;
+}
+
+input.valid.success-alert {
+  border: 1px solid #4caf50;
+  color: green;
+}
+
+input.error {
+  border: 1px solid red;
+  font-weight: 200;
+  color: red;
+}
+
+.form-group {
+  padding-bottom: 15px !important;
+}
+
+.form-group button {
+  padding-top: 10px !important;
+}
+
+.form-section {
+  width: 100%;
+  min-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.form {
+  width: 40%;
+}
+
+.dropup {
+  position: fixed !important;
+  bottom: 0px !important;
+  right: 0px !important;
+  padding: 20px !important;
+}
+
+.btn-secondary {
+  height: 60px;
+  width: 60px;
+  border-radius: 50% !important;
+  background-color: #c29525;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.overlay {
+  display: none;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.8);
+  overflow-y: scroll;
+}
+
+.popup {
+  padding: 30px;
+  position: absolute;
+  top: 43px;
+  width: 100%;
+  text-align: center;
+  background: white;
+  /*border-radius: 5%;*/
+  overflow-y: hidden;
+}
+
+.CloseIcon {
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #c29525;
+  color: #fff;
+  cursor: pointer;
+}
+
+.CloseIcon:hover {
+  background-color: #fff;
+  line-height: 46px;
+  border: 2px solid #c29525;
+  color: #c29525;
+}
+
+.dropdown-menu {
+  font-size: 1.2rem !important;
+}
+
+.lead {
+  font-size: xx-large !important;
+}
+
+.cancelbtn,
+.exitbtn,
+.deletebtn {
+  font-size: large !important;
+  width: 30%;
+  height: 40px !important;
+}
+
+.cancelbtn {
+  background-color: #ccc !important;
+}
+
+.cancelbtn:hover {
+  border: 2px solid #ccc !important;
+  background-color: #fff !important;
+  color: #ccc !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .popup .section-header {
+    padding: 3rem 0 3rem 0;
+  }
+
+  .form {
+    width: 80%;
+  }
+
+  .cancelbtn,
+  .exitbtn,
+  .deletebtn {
+    font-size: medium !important;
+    width: 40%;
+    height: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  html {
+    overflow-x: scroll;
+  }
+
+  body {
+    overflow-x: scroll;
+  }
+
+  .btn-secondary {
+    height: 50px;
+    width: 50px;
+  }
+}

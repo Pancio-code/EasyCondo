@@ -1,0 +1,126 @@
+html {
+  font-size: 70%;
+}
+
+.container {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.btn {
+  background-color: #c29525 !important;
+  border: none !important;
+}
+
+.btn:hover {
+  border: 2px solid #c29525 !important;
+  background-color: #fff !important;
+  color: #c29525 !important;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 0 3rem 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #4b4b4b;
+  margin-bottom: 6rem;
+}
+
+.underline {
+  width: 12rem;
+  height: 0.3rem;
+  background-color: #c29525;
+}
+
+.submit-btn {
+  align-items: center;
+  width: 70%;
+  max-width: 70%;
+  height: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem !important;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+label.error {
+  color: red;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+}
+
+.form-errors {
+  color: red;
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 5px;
+}
+
+label.error.fail-alert {
+  border: 1px solid red;
+  border-radius: 4px;
+  line-height: 1;
+  padding: 2px 0 6px 6px;
+  background: #ffe6eb;
+}
+
+input.valid.success-alert {
+  border: 1px solid #4caf50;
+  color: green;
+}
+
+input.error {
+  border: 1px solid red;
+  font-weight: 200;
+  color: red;
+}
+
+.form-group {
+  padding-bottom: 15px !important;
+}
+
+.form-group button {
+  padding-top: 10px !important;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 100px;
+}
+
+.register,
+.forgot_password {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.form {
+  width: 50%;
+}
+
+@media (max-width: 450px) {
+  .form {
+    width: 80%;
+  }
+
+  .submit-btn {
+    width: 80%;
+    max-width: 80%;
+    height: 4.5rem;
+  }
+}
