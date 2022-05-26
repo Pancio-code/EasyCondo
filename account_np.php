@@ -199,7 +199,7 @@ if (isset($_SESSION['session_id'])) {
             <div class="underline"></div>
         </div>
         <div class="section-account">
-            <div class="card mb-3" data-tilt data-tilt-max="5" data-tilt-speed="100">
+            <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="profilo/images/<?php echo $profile_image; ?>" class="img-fluid rounded-start" alt="immagine di profilo">
@@ -243,7 +243,7 @@ if (isset($_SESSION['session_id'])) {
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!--animazione per le card con il movimento del mouse-->
+    <!--animazione per le card con il movimento del mouse
     <script type="text/javascript">
         (function() {
             if (window.innerWidth > 600) {
@@ -255,7 +255,7 @@ if (isset($_SESSION['session_id'])) {
                 s.parentNode.insertBefore(theScript, s);
             }
         })();
-    </script>
+    </script>-->
 </body>
 
 </html>
