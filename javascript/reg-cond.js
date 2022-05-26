@@ -39,7 +39,7 @@ $(document).ready(function() {
             indirizzo: {
                 required: true,
                 ///espressione regolare che accetta solo parole che iniziano con via/corso/viale/piazza uno spazio e altre parole(almeno 1) separate da spazi,e al termine un numero civico
-                regex_via: /^(via|corso|viale|piazza|Via|Corso|Viale|Piazza)[ a-zA-Z]{1,}[0-9]{1,}$/
+                regex_via: /^(via|corso|viale|piazza|Via|Corso|Viale|Piazza)[ ][a-zA-Z]([ ](?![ ])|[a-zA-Z]){1,}[ ][0-9]{1,}$/
             },
         },
         //messaggi d'errore per ogni singolo controllo.
