@@ -13,6 +13,7 @@ if (isset($_SESSION['session_id'])) {
     unset($_SESSION['errors-forgot']);
     unset($_SESSION['errors']);
     unset($_SESSION['session_post']);
+    session_destroy();
 }
 header('Location: ../account/login.php');
 exit;
