@@ -36,6 +36,7 @@ if (isset($_GET['code'])) {
                 }
                 //richiesta esiste e soddisfa le richieste temporali
                 $exist = true;
+                break;
             }
         }
     }

@@ -88,6 +88,7 @@ if (isset($_SESSION['session_id'])) {
       <h1 class="display-1 section-heading">Login</h1>
       <div class="underline"></div>
     </div>
+    <!--nome classe di section register per usare stesso css per entrambe le pagine register e login -->
     <section class="register">
       <div class="form">
         <form id="form" action="../php/login.php" method="post" enctype="multipart/form-data" name="myForm">
